@@ -7,7 +7,7 @@ define(function(require, exports, module) {
     var adapter = function(module, debug) {
         var debugMode = false;
         var prefix = $('#seajsFile').attr('src');
-        prefix = prefix.split('js/seajs/');
+        prefix = prefix.split('js/');
         prefix = prefix[0] || './';
         if (debug) {
             debugMode = true;

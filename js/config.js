@@ -7,6 +7,7 @@ seajs.config({
         'util': 'lib/util/main',
         'formatdate': 'lib/formatDate/main'
     },
-    preload: ["jquery"],
+    // jquery 和 sea.js,config.js,main.js 合并后就不需要预加载了 
+    // preload: ["jquery"],
     charset: 'utf-8'
 });
