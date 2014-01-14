@@ -1,0 +1,5 @@
+{
+   "jquery": "lib/jquery/jquery-1.10.1.min",
+   "util": "lib/util/main",
+   "formatdate": "lib/formatDate/main"
+}
