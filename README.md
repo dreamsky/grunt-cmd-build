@@ -11,10 +11,13 @@ This demo requires following plugin:
 This demo base on [Node.js](http://nodejs.org/) and [Grunt](http://gruntjs.com/), you can run this demo by fllowing septions:
 
 1. Install dependency modules:
+
 ```shell
 npm install --save-dev
 ```
-1. Run grunt task:
+
+2. Run grunt task:
+
 ```shell
 grunt build --force
 ```
